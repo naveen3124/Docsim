@@ -1,0 +1,907 @@
+    1  cd /var/lib/redis/
+    2  ls
+    3  vim /etc/redis/redis.conf 
+    4  exit
+    5  vim /etc/redis/redis.conf
+    6  exit
+    7  vim /etc/redis/redis.conf
+    8  exit
+    9  find / -name cmake
+   10  find /usr/ -name cmake
+   11  /usr/bin/cmake --version
+   12  /usr/bin/cmake -S standalone -B build/standalone
+   13  vim buildSteps.sh 
+   14  cmake --build build/standalone
+   15  vim standalone/source/main.cpp 
+   16  /usr/bin/cmake -S standalone -B build/standalone
+   17  cmake --build build/standalone
+   18  rm -rf build
+   19  cmake --build build/standalone
+   20  /usr/bin/cmake -S standalone -B build/standalone
+   21  vim standalone/source/main.cpp 
+   22  /usr/bin/cmake -S standalone -B build/standalone
+   23  cmake --build build/standalone
+   24  vim standalone/source/main.cpp 
+   25  cmake --build build/standalone
+   26  gcc --version
+   27  vim standalone/source/main.cpp 
+   28  cmake --build build/standalone
+   29  history > installhistory.txt
+    1  cd /mnt/e/
+    2  ls
+    3  cd project-n/
+    4  ls
+    5  cd pythonProjects/
+    6  ls
+    7  cd keywordExtractor/
+    8  ls
+    9  source venv/activate
+   10  cd ..
+   11  curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+   12  echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+   13  sudo apt-get update
+   14  sudo apt-get install redis
+   15  sudo service redis-server start
+   16  redis-cli 
+   17  sudo service redis-server start
+   18  redis-cli 
+   19  pwd
+   20  cd /mnt/e/project-n/pythonProjects/
+   21  mkdir redisData
+   22  cd redisData/
+   23  pwd
+   24  sudo service redis-server start
+   25  redis-cli 
+   26  cd /var/lib/redis/
+   27  sudo 
+   28  sudo  cd /var/lib/redis/
+   29  sudo -s /var/lib/redis/
+   30  sudo -s cd  /var/lib/redis/
+   31  ls
+   32  pwd
+   33  /var/lib/redis/
+   34  cd /var/lib/redis/
+   35  sudo cd /var/lib/redis/
+   36  pwd
+   37  sudo -s
+   38  redis-cli
+   39  sudo service redis-server restart
+   40  redis-cli
+   41  sudo service redis-server restart
+   42  redis-cli
+   43  nproc
+   44  redis-cli
+   45  sudo service redis-server restart
+   46  redis-cli
+   47  sudo service redis-server restart
+   48  redis-cli
+   49  java version
+   50  sudo apt install openjdk-17-jre-headless
+   51  apt install openjdk-17-jre-headless
+   52  sudo apt install openjdk-17-jre-headless
+   53  sudo run apt-get update
+   54  sudoapt-get update
+   55  sudo apt-get update
+   56  curl -s  https://indiankanoon.org/doc/99745
+   57  curl https://indiankanoon.org/doc/99745
+   58  curl https://indiankanoon.org/doc/99747
+   59  curl https://indiankanoon.org/doc/1
+   60  curl https://indiankanoon.org/doc/1 -v
+   61  curl https://www.example.com
+   62  curl 
+   63  curl https://indiankanoon.org/doc/1
+   64  clear
+   65  curl https://indiankanoon.org/doc/1
+   66  pwd
+   67  mkdir kernel_prog
+   68  cd kernel_prog/
+   69  git clone https://github.com/PacktPublishing/Linux-Kernel-Programming.git
+   70  ls
+   71  cd Linux-Kernel-Programming/
+   72  ls
+   73  sudo apt install cscope
+   74  cscope -Rbq
+   75  ls
+   76  cscope -d
+   77  pwd
+   78  ls
+   79  mkdir lawman_website
+   80  cd lawman_website/
+   81  ls
+   82  python3 -m venv venv
+   83  sudo apt install python3.10-venv
+   84  sudo apt-get update
+   85  sudo apt install python3.10-venv
+   86  python3 -m venv venv
+   87  source venv/bin/activate
+   88  pip install flask
+   89  export FLASK_APP=app.py
+   90  export FLASK_RUN_PORT=9999
+   91  ls
+   92  mkdir sr
+   93  mv sr/ src/
+   94  ls
+   95  cd src/
+   96  vim app.py
+   97  flask run
+   98  cd ..
+   99  ls
+  100  git clone https://github.com/miguelgrinberg/flasky.git
+  101  ls
+  102  cd flasky/
+  103  ls
+  104  git checkout 4c
+  105  ls
+  106  flask run
+  107  export FLASK_APP=hello.py
+  108  flask run
+  109  pip install flask_bootstrap
+  110  flask run
+  111  pip install flask_moment
+  112  flask run
+  113  pip install flask_wtf
+  114  flask run
+  115  cd static/
+  116  ls
+  117  cd. .
+  118  ls
+  119  cd ..
+  120  ls
+  121  cd templates/
+  122  ls
+  123  vim index.html 
+  124  cd ..
+  125  vim templates/base.html 
+  126  flask run
+  127  git checkout 5a
+  128  ls
+  129  vim hello.py 
+  130  ssh vm
+  131  cd /mnt/f/LegalGaneshaServer/server/target
+  132  ls
+  133  cd /mnt/f/LegalGaneshaServer/server/
+  134  ls
+  135  cd target/
+  136  ls
+  137  java -jar lgi-server.jar
+  138  sudo apt install openjdk-17-jre-headless
+  139  java -jar lgi-server.jar
+  140  ls
+  141  java -jar server-0.0.1-SNAPSHOT-shaded.jar
+  142  ls
+  143  cd ..
+  144  cd target/
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd target/
+  149  ls
+  150  cd. .
+  151  cd ..
+  152  ls
+  153  cd target/
+  154  ls
+  155  cd /mnt/f/LegalGaneshaServer/server/
+  156  ls
+  157  cd target/
+  158  ls
+  159  cd ..
+  160  ls
+  161  pwd
+  162  cd /mnt/f/LegalGaneshaServer/
+  163  vim check.py 
+  164  python3 check.py 
+  165  pwd
+  166  redis-cli
+  167  sudo service redis-server restart
+  168  redis-cli ping
+  169  ps aux
+  170  sudo service redis-server restart
+  171  redis-cli 
+  172  sudo service redis-server restart
+  173  redis-cli 
+  174  sudo service redis-server stop
+  175  sudo service redis-server start
+  176  redis-cli 
+  177  redis-cli config get dir
+  178  cd /mnt/e/project-n/pythonProjects/redisData 
+  179  ls
+  180  ls -al
+  181  ls -alh
+  182  sudo service redis-server start
+  183  redis-cli 
+  184  redis-cli --human info | grep "used_memory_rss"
+  185  redis-cli info | grep "used_memory_rss"
+  186  redis-cli config get dir
+  187  cd "/mnt/e/project-n/pythonProjects/redisData"
+  188  ls
+  189  ls -al
+  190  ls
+  191  ls -al
+  192  redis-cli config get save
+  193  sudo service redis-server start
+  194  redis-cli 
+  195  sudo service redis-server restart
+  196  redis-cli 
+  197  sudo service redis-server restart
+  198  redis-cli 
+  199  sudo service redis-server restart
+  200  redis-cli
+  201  sudo service redis-server restart
+  202  redis-cli
+  203  sudo service redis-server restart
+  204  redis-cli
+  205  sudo service redis-server restart
+  206  redis-cli
+  207  ssh vm
+  208  sudo service redis-server restart
+  209  cd /home/naveen/sim_search/ModernCppStarter
+  210  ls
+  211  vim cmake/tools.cmake 
+  212  cd /home/naveen/sim_search/legalganesha/ModernCppStarter
+  213  ls
+  214  grep -nr "Greeter" .
+  215  rm -rf ./build/
+  216  grep -nr "Greeter" .
+  217  vim ./CMakeLists.txt
+  218  cmake -S standalone -B build/standalone
+  219  vim CMakeLists.txt 
+  220  vim ./standalone/CMakeLists.txt
+  221  pwd
+  222  cd ../../ModernCppStarter/
+  223  vim ./standalone/CMakeLists.txt 
+  224  cmake -S standalone -B build/standalone
+  225  cd /home/naveen/sim_search/legalganesha/ModernCppStarter
+  226  ls
+  227  vim standalone/CMakeLists.txt 
+  228  cmake -S standalone -B build/standalone
+  229  cmake --build build/standalone
+  230  grep -nr "Greeter" sr
+  231  grep -nr "Greeter" .
+  232  rm -rf build/
+  233  grep -nr "Greeter" .
+  234  mv ./include/greeter/greeter.h ./include/greeter/docsim.h
+  235  mv ./include/docsim ./include/docsim
+  236  git status
+  237  mv ./include/greeter ./include/docsim
+  238  git status
+  239  git add include/docsim/
+  240  git status
+  241  git diff standalone/CMakeLists.txt
+  242  cmake -S standalone -B build/standalone
+  243  cmake --build build/standalone
+  244  git status
+  245  vim /home/naveen/sim_search/legalganesha/ModernCppStarter/source/greeter.cpp
+  246  cmake --build build/standalone
+  247  vim /home/naveen/sim_search/legalganesha/ModernCppStarter/standalone/source/main.cpp
+  248  cmake --build build/standalone
+  249  vim /home/naveen/sim_search/legalganesha/ModernCppStarter/standalone/source/main.cpp
+  250  grep -nr "GREETER_VERSION" .
+  251  vim ./standalone/source/main.cpp
+  252  cmake --build build/standalone
+  253  ./build/standalone/Greeter --help
+  254  grep -nr "Greeter" .
+  255  rm -rf build/
+  256  grep -nr "Greeter" .
+  257  vim ./source/greeter.cpp
+  258  vim ./include/docsim/docsim.h 
+  259  cmake -S standalone -B build/standalone
+  260  cmake --build build/standalone
+  261  vim /home/naveen/sim_search/legalganesha/ModernCppStarter/standalone/source/main.cpp
+  262  cmake --build build/standalone
+  263  vim /home/naveen/sim_search/legalganesha/ModernCppStarter/standalone/source/main.cpp
+  264  vim include/docsim/
+  265  vim include/docsim/docsim.h 
+  266  cmake --build build/standalone
+  267  vim /home/naveen/sim_search/legalganesha/ModernCppStarter/source/greeter.cpp
+  268  cmake --build build/standalone
+  269  vim /home/naveen/sim_search/legalganesha/ModernCppStarter/standalone/source/main.cpp
+  270  cmake --build build/standalone
+  271  grep -nr "Greeter" .
+  272  rm -rf build/
+  273  grep -nr "Greeter" .
+  274  vim ./standalone/CMakeLists.txt
+  275  cmake --build build/standalone
+  276  cmake -S standalone -B build/standalone
+  277  cmake --build build/standalone
+  278  ./build/standalone/DocSim --help
+  279  cmake -S test -B build/test
+  280  grep -nr 
+  281  grep -nr "Greeter" test/
+  282  vim test/CMakeLists.txt
+  283  vim test/source/greeter.cpp
+  284  cmake -S test -B build/test
+  285  pip install cmake-format
+  286  cmake --build build/test
+  287  CTEST_OUTPUT_ON_FAILURE=1 cmake --build build/test --target test
+  288  ./build/test/DocSimTests 
+  289  python
+  290  python3
+  291  pip3 install clang-format==14.0.6 cmake_format==0.6.11 pyyaml
+  292  pip install clang-format==14.0.6 cmake_format==0.6.11 pyyaml
+  293  sudo apt install python3-pip
+  294  pip install clang-format==14.0.6 cmake_format==0.6.11 pyyaml
+  295  cmake -S test -B build/test
+  296  cmake --build build/test --target fix-format
+  297  cmake -S documentation -B build/doc
+  298  cmake --build build/doc --target GenerateDocs
+  299  pip install Jinja2
+  300  cmake --build build/doc --target GenerateDocs
+  301  pip install pygments
+  302  cmake --build build/doc --target GenerateDocs
+  303  sudo apt install doxygen
+  304  cmake --build build/doc --target GenerateDocs
+  305  open build/doc/doxygen/html/index.html
+  306  cd sim_search/
+  307  ls
+  308  cd ModernCppStarter/`
+  309  cd ModernCppStarter/
+  310  ls
+  311  vim standalone/source/main.cpp 
+  312  vim standalone/CMakeLists.txt 
+  313  pwd
+  314  vim standalone/CMakeLists.txt 
+  315  vim CMakeLists.txt 
+  316  grep -nr "Greeter" .
+  317  vim CMakeLists.txt 
+  318  mkdir -p include/sim_doc_search/
+  319  mv ./source/greeter.cpp ./source/sim_doc_search.cpp
+  320  mv ./include/greeter/greeter.h include/sim_doc_search/sim_doc_search.h
+  321  vim ./documentation/CMakeLists.txt
+  322  vim include/sim_doc_search/sim_doc_search.h
+  323  vim ./source/greeter.cpp
+  324  vim ./source/sim_doc_search.cpp 
+  325  vim ./include/greeter/greeter.h
+  326  vim ./test/CMakeLists.txt
+  327  mv ./test/source/greeter.cpp ./test/source/sim_doc_search.cpp
+  328  vim ./test/source/sim_doc_search.cpp
+  329  git status
+  330  ls
+  331  ls -al
+  332  ls
+  333  grep -inr "Greeter" .
+  334  vim ./source/sim_doc_search.cpp
+  335  vim ./.github/workflows/standalone.yml
+  336  vim ./documentation/conf.py 
+  337  vim ./include/sim_doc_search/sim_doc_search.h
+  338  cmake -S standalone -B build/standalone
+  339  sudo apt install cmake
+  340  apt-get update
+  341  sudo apt-get update
+  342  sudo apt install cmake
+  343  cmake -S standalone -B build/standalone
+  344  gcc
+  345  g++
+  346  which gcc
+  347  gcc -version
+  348  gcc --version
+  349  sudo apt install g++
+  350  g++ --version
+  351  cmake -S standalone -B build/standalone
+  352  cmake --build build/standalone
+  353  rm -rf include/greeter/
+  354  git status
+  355  cmake --build build/standalone
+  356  vim include/sim_doc_search/sim_doc_search.h 
+  357  grep -inr "Greeter" .
+  358  grep -nr "version" .
+  359  vim CMakeLists.txt 
+  360  git status
+  361  cmake -S standalone -B build/standalone
+  362  cmake --build build/standalone
+  363  cd ..
+  364  git clone https://github.com/TheLartians/ModernCppStarter.git
+  365  mkdir legalganesha
+  366  cd legalganesha/
+  367  git clone https://github.com/TheLartians/ModernCppStarter.git
+  368  cd ModernCppStarter/
+  369  ls
+  370  cmake -S standalone -B build/standalone
+  371  cmake --build build/standalone
+  372  find . -name version.h 
+  373  ./build/standalone/Greeter --help
+  374  ./build/standalone/Greeter --version
+  375  ./build/standalone/Greeter --name naveen
+  376  ./build/standalone/Greeter --name naveen -l us
+  377  ./build/standalone/Greeter --name naveen -l bn
+  378  pwd
+  379  sudo service redis-server restart
+  380  redis-cli INFO
+  381  redis-cli
+  382  ls
+  383  cd sim_search/
+  384  ls
+  385  rm -rf ModernCppStarter/
+  386  mv legalganesha/ModernCppStarter/ .
+  387  ls
+  388  rm -rf legalganesha/
+  389  cd ModernCppStarter/
+  390  ls
+  391  ls -al
+  392  cd ..
+  393  ls
+  394  mkdir legalganesha
+  395  find ModernCppStarter/ -type f -exec cp {} legalganesha/ \;
+  396  rm -rf legalganesha/
+  397  ls
+  398  cd ModernCppStarter/
+  399  git status
+  400  rm -rf build
+  401  cd ..
+  402  find ModernCppStarter/ -type f -exec cp {} legalganesha/ \;
+  403  mkdir legalganesha
+  404  find ModernCppStarter/ -type f -exec cp {} legalganesha/ \;
+  405  ls
+  406  cd legalganesha/
+  407  ls
+  408  pwd
+  409  cd ..
+  410  ls
+  411  rm -rf legalganesha/
+  412  ls
+  413  cd ModernCppStarter/
+  414  ls
+  415  vim README.md 
+  416  cmake -S standalone -B build/standalone
+  417  cmake --build build/standalone
+  418  ./build/standalone/DocSim --help
+  419  grep -inr "greeter" .
+  420  rm -rf build/
+  421  grep -inr "greeter" .
+  422  clear
+  423  ls
+  424  vim standalone/source/main.cpp
+  425  vim source/greeter.cpp 
+  426  mv source/greeter.cpp source/docsim.cpp
+  427  vim source/docsim.cpp 
+  428  vim standalone/source/main.cpp
+  429  pwd
+  430  cd ..
+  431  l
+  432  ls
+  433  cd ..
+  434  ls
+  435  mv sim_search/ModernCppStarter .
+  436  ls
+  437  rm -rf sim_search/
+  438  cd ModernCppStarter/
+  439  ls
+  440  cmake --build build/standalone
+  441  cmake -S standalone -B build/standalone
+  442  cmake --build build/standalone
+  443  ./build/standalone/DocSim --help
+  444  ./build/standalone/DocSim 
+  445  cd ..
+  446  ls
+  447  mv ModernCppStarter legalganesha
+  448  cd legalganesha/
+  449  ls
+  450  git status
+  451  mv test/source/greeter.cpp test/source/docsim.cpp
+  452  git status
+  453  cmake -S standalone -B build/standalone
+  454  rm -rf build/
+  455  cmake -S standalone -B build/standalone
+  456  cmake --build build/standalone
+  457  ./build/standalone/DocSim 
+  458  ls
+  459  vim standalone/CMakeLists.txt 
+  460  vim standalone/source/main.cpp
+  461  vim CMakeLists.txt 
+  462  find . -name CMakeLists.txt 
+  463  vim standalone/CMakeLists.txt 
+  464  ls
+  465  mkdir extenal
+  466  cd extenal/
+  467  cd ..
+  468  mv extenal/ external
+  469  ls
+  470  cd external/
+  471  ls
+  472  vim clone.txt
+  473  ls
+  474  git clone https://github.com/redis/hiredis.git
+  475  ls
+  476  cd hiredis/
+  477  ls
+  478  cd ..
+  479  ls
+  480  cd hiredis/
+  481  ls
+  482  git checkout v1.2.0
+  483  git branch
+  484  ls
+  485  cd ..
+  486  ls
+  487  vim standalone/CMakeLists.txt 
+  488  pwd
+  489  vim standalone/CMakeLists.txt 
+  490  cd /home/naveen/legalganesha
+  491  ls
+  492  cmake -S standalone -B build/standalone
+  493  cmake --build build/standalone
+  494  ls
+  495  rm -rf build/
+  496  cmake -S standalone -B build/standalone
+  497  cmake --build build/standalone
+  498  vim external/hiredis/examples/CMakeLists.txt 
+  499  cmake --build build/standalone
+  500  cd /home/naveen/legalganesha/build/standalone/external/hiredis/src/hiredis/
+  501  ls
+  502  make
+  503  cd /home/naveen/legalganesha/build/standalone/external/hiredis/src/hiredis/
+  504  ls
+  505  cd ..
+  506  ls
+  507  cmake --build build/standalone
+  508  find . -name libhiredis.a 
+  509  cmake --build build/standalone
+  510  vim standalone/source/main.cpp 
+  511  cmake --build build/standalone
+  512  cmake -S standalone -B build/standalone
+  513  rm -rf build/
+  514  cmake -S standalone -B build/standalone
+  515  cmake --build build/standalone
+  516  vim standalone/source/main.cpp 
+  517  vim ~/.vimrc
+  518  source ~/.vimrc
+  519  vim ~/.vimrc
+  520  source ~/.vimrc
+  521  vim ~/.vimrc
+  522  source ~/.vimrc
+  523  vim ~/.vimrc
+  524  source ~/.vimrc
+  525  vim ~/.vimrc
+  526  source ~/.vimrc
+  527  vim standalone/source/main.cpp 
+  528  vim ~/.vimrc
+  529  source ~/.vimrc
+  530  vim standalone/source/main.cpp 
+  531  vim ~/.vimrc
+  532  source ~/.vimrc
+  533  vim standalone/source/main.cpp 
+  534  cmake --build build/standalone
+  535  vim standalone/source/main.cpp 
+  536  cmake --build build/standalone
+  537  ./build/standalone/DocSim 
+  538  vim standalone/source/main.cpp 
+  539  cmake --build build/standalone
+  540  ./build/standalone/DocSim 
+  541  vim standalone/source/main.cpp 
+  542  cd /home/naveen/legalganesha
+  543  ls
+  544  cmake -S standalone -B build/standalone
+  545  git status
+  546  vim standalone/source/main.cpp 
+  547  ssh vm
+  548  redis-cli
+  549  sudo service redis-server restart
+  550  find / -name *.rdb
+  551  pwd
+  552  redis-cli
+  553  cd "/mnt/e/project-n/pythonProjects/redisData"
+  554  ls
+  555  ls -alh
+  556  pwd
+  557  ls -al
+  558  ls -alh
+  559  sudo service redis-server restart
+  560  redis-cli KEYS *
+  561  redis-cli
+  562  sudo service redis-server restart
+  563  redis-cli
+  564  sudo service redis-server restart
+  565  redis-cli
+  566  redis-server
+  567  redis-server --dbfilename dump.rdb
+  568  sudo systemctl stop redis
+  569  redis-cli
+  570  redis-cli INFO
+  571  redis-cli -p 6380
+  572  redis-cli -p 6387
+  573  redis-cli -p 6380
+  574  redis-cli
+  575  ps
+  576  sudo service redis-server restart
+  577  redis-cli
+  578  redis-cli shutdown
+  579  redis-cli CONFIG GET logfile
+  580  sudo service redis-server restart
+  581  redis-cli CONFIG GET logfile
+  582  vim /var/log/redis/redis-server.log 
+  583  sudo service redis-server stop
+  584  sudo apt-get remove redis-server
+  585  redis-server
+  586  redis-cli
+  587  redis-cli INFO
+  588  sudo apt-get install redis
+  589  redis
+  590  redis-server
+  591  sudo su
+  592  redis-server --dbfilename /mnt/e/project-n/lawman1/dump.rdb
+  593  sudo su
+  594  cd /mnt/e/project-n/lawman1/
+  595  ls
+  596  redis-server --dbfilename dump.rdb
+  597  redis-server --dbfilename dump.rdb --port 6380
+  598  redis-server --dbfilename dump.rdb --port 6380 --daemonize yes
+  599  redis-server --dbfilename dump.rdb --port 6380
+  600  cd /mnt/e/docsim/
+  601  ls
+  602  vim standalone/source/main.cpp 
+  603  vim standalone/source/Base64.h 
+  604  vim standalone/source/main.cpp 
+  605  vim standalone/source/Base64.h 
+  606  vim standalone/source/main.cpp 
+  607  vim standalone/source/Base64.h 
+  608  vim standalone/source/main.cpp 
+  609  redis-server --dbfilename /mnt/e/docsim/data/dump.rdb --port 6380
+  610  cd ..
+  611  pwd
+  612  cd /mnt/e/docsim
+  613  ls
+  614  cd data
+  615  vim startRedis.sh
+  616  chmod +x startRedis.sh 
+  617  ./startRedis.sh 
+  618  vim startRedis.sh
+  619  ls
+  620  ls -al
+  621  rm dump.db 
+  622  vim startRedis.sh
+  623  ./startRedis.sh 
+  624  pwd
+  625  ls
+  626  ls -al
+  627  cd legalganesha/
+  628  ls
+  629  cp /mnt/e/project-n/pythonProjects/redisData/dump.rdb .
+  630  ls
+  631  ls -al
+  632  rm dump.rdb 
+  633  pwd
+  634  mkdir data 
+  635  cd data/
+  636  pwd
+  637  ls
+  638  [wd
+  639  cd //
+  640  cd /home/naveen/legalganesha
+  641  ls
+  642  pwd
+  643  ls
+  644  cd ..
+  645  mv legalganesha docsim
+  646  cd docsim/
+  647  ;s
+  648  ls
+  649  cd ..
+  650  mv docsim /mnt/e/
+  651  cd /mnt/e/docsim/
+  652  ls
+  653  cmake -S standalone -B build/standalone
+  654  ls
+  655  rm -rf build
+  656  cmake -S standalone -B build/standalone
+  657  vim standalone/source/main.cpp 
+  658  rm standalone/source/.main.cpp.swp
+  659  vim standalone/source/main.cpp 
+  660  mkdir dev_scripts
+  661  cd dev_scripts/
+  662  cd ..
+  663  cd data/
+  664  ls
+  665  pwd
+  666  cd ..
+  667  cd dev_scripts/
+  668  cd ..
+  669  ls
+  670  rm -rf dev_scripts/
+  671  pwd
+  672  ls
+  673  vim data/buildSteps.sh
+  674  cp data/buildSteps.sh .
+  675  chmod +x data/buildSteps.sh
+  676  vim buildSteps.sh 
+  677  ./buildSteps.sh 
+  678  vim standalone/source/main.cpp 
+  679  ./build/standalone/DocSim 
+  680  redis-cli -p 6380
+  681  ./buildSteps.sh 
+  682  vim standalone/CMakeLists.txt 
+  683  ./buildSteps.sh 
+  684  vim standalone/CMakeLists.txt 
+  685  ./buildSteps.sh 
+  686  vim standalone/CMakeLists.txt 
+  687  ./buildSteps.sh 
+  688  cmake --build build/standalone
+  689  ./build/standalone/DocSim 
+  690  cmake --build build/standalone
+  691  ./build/standalone/DocSim 
+  692  cmake --build build/standalone
+  693  ./build/standalone/DocSim 
+  694  cmake --build build/standalone
+  695  ./build/standalone/DocSim 
+  696  cmake --build build/standalone
+  697  ./build/standalone/DocSim 
+  698  cd /home/naveen/legalganesha
+  699  cd /mnt/e/docsim/
+  700  ls
+  701  vim standalone/source/main.cpp 
+  702  pwd
+  703  ls
+  704  cd external/
+  705  ls
+  706  wget https://zlib.net/current/zlib.tar.gz
+  707  tar -xvzf zlib.tar.gz 
+  708  ls
+  709  rm -rf zlib.tar.gz 
+  710  ls
+  711  cd zlib-1.3.1/
+  712  ls
+  713  pwd
+  714  cd ..
+  715  ls
+  716  mkdir zlib
+  717  ls
+  718  pwd
+  719  cd zlib-1.3.1/
+  720  l
+  721  ls
+  722  ./configure --help
+  723  vim configure
+  724  pwd
+  725  ./configure --prefix=/mnt/e/docsim/external/zlib
+  726  make 
+  727  ls
+  728  make install
+  729  ls
+  730  cd ,,
+  731  cd ..
+  732  ls
+  733  cd zlib
+  734  ls
+  735  cd lib/pkgconfig/
+  736  ls
+  737  cd ..
+  738  ls
+  739  cd include/
+  740  ls
+  741  cd ..
+  742  ls
+  743  cd share/man/man3/
+  744  ls
+  745  cd ..
+  746  tree zlib
+  747  sudo apt install tree
+  748  tree zlib
+  749  cd ..
+  750  ls
+  751  vim standalone/CMakeLists.txt 
+  752  cmake -S standalone -B build/standalone
+  753  cmake --build build/standalone
+  754  cmake --build . --target clean
+  755  cmake --build build/standalone --target clean
+  756  ls
+  757  cmake --build build/standalone --target clean-all
+  758  cmake --build build/standalone --target clear
+  759  vim standalone/CMakeLists.txt 
+  760  ls
+  761  cd external/
+  762  ls
+  763  git clone https://github.com/facebookresearch/faiss.git
+  764  cd faiss/
+  765  ls
+  766  cmake -B build .
+  767  cmake -version
+  768  sudo apt-get update
+  769  sudo apt-get install cmake
+  770  sudo apt-get remove cmake
+  771  cmake -version
+  772  cd ..
+  773  wget https://github.com/Kitware/CMake/releases/download/v3.29.2/cmake-3.29.2.tar.gz
+  774  ls
+  775  tar -xzvf cmake-3.29.2.tar.gz 
+  776  ls
+  777  cd cmake-3.29.2/
+  778  ./bootstrap
+  779  sudo apt install openssl
+  780  ./bootstrap
+  781  openssl
+  782  which openssl
+  783  export OPENSSL_ROOT_DIR=/usr/bin/openssl
+  784  ./bootstrap
+  785  echo $OPENSSL_ROOT_DIR
+  786  ls
+  787  vim CMakeLists.txt 
+  788  vim Utilities/cmcurl/CMakeLists.txt 
+  789  ./bootstrap -DCMAKE_USE_OPENSSL=OFF
+  790  vim Utilities/cmcurl/CMakeLists.txt 
+  791  grep -nr "CMAKE_USE_OPENSSL" .
+  792  vim ./CMakeCache.txt 
+  793  vim Utilities/cmcurl/CMakeLists.txt 
+  794  ./bootstrap 
+  795  make && sudo make install
+  796  cmake --version
+  797  vim ~/.bashrc 
+  798  /usr/local/bin/cmake --version
+  799  vim ~/.bashrc 
+  800  source ~/.bashrc
+  801  cmake 
+  802  cmake --version
+  803  cd ..
+  804  ls
+  805  cd faiss/
+  806  ls
+  807  cmake -B build .
+  808  cmake -DFAISS_ENABLE_GPU=OFF -B build .
+  809  cd ..
+  810  ls
+  811  wget http://www.netlib.org/blas/blas-3.12.0.tgz
+  812  tar -xf blas-3.12.0.tgz
+  813  ls
+  814  rm -rf BLAS-3.12.0/
+  815  tar -xvf blas-3.12.0.tgz
+  816  cd BLAS-3.12.0/
+  817  ls
+  818  cmake  -B build .
+  819  cd ..
+  820  ls
+  821  rm -rf BLAS-3.12.0/
+  822  rm -rf blas-3.12.0.tgz 
+  823  wget https://github.com/xianyi/OpenBLAS.git
+  824  ls
+  825  rm OpenBLAS.git 
+  826  git clone https://github.com/xianyi/OpenBLAS.git
+  827  cd OpenBLAS/
+  828  ls
+  829  cmake -B build .
+  830  make && sudo make install
+  831  cd ..
+  832  cd faiss/
+  833  cmake -B build .
+  834  cmake -DBLA_VENDOR=OpenBLAS -B build .
+  835  openblas
+  836  vim ~/.bashrc 
+  837  source ~/.bashrc
+  838  cmake -DBLA_VENDOR=OpenBLAS -B build .
+  839  vim faiss/CMakeLists.txt 
+  840  grep -nr "BLAS_LIBRARIES" /
+  841  grep -nr "BLAS_LIBRARIES" .
+  842  find . -name libopenblas.so
+  843  find /op -name libopenblas.so
+  844  find /opt -name libopenblas.so
+  845  vim ~/.bashrc 
+  846  source ~/.bashrc
+  847  cmake -DBLA_VENDOR=OpenBLAS -B build .
+  848  vim faiss/CMakeLists.txt 
+  849  cmake -DBLA_VENDOR=OpenBLAS -B build .
+  850  cmake -B build -DBLA_VENDOR=OpenBLAS .
+  851  cmake -B build -DFAISS_OPT_USE_BLAS=ON -DBLAS_mkl_LIBRARY=/opt/OpenBLAS/lib/libopenblas.so ..
+  852  cmake -B build -DFAISS_OPT_USE_BLAS=ON -DBLAS_mkl_LIBRARY=/opt/OpenBLAS/lib/libopenblas.so .
+  853  find BLASConfig.cmake /opt/
+  854  vim faiss/CMakeLists.txt 
+  855* vimVI
+  856  vim faiss/CMakeLists.txt 
+  857  grep -nr "OpenBLAS" .
+  858  cmake -B build .
+  859  vim ~/.bashrc 
+  860  source ~/.bashrc
+  861  cmake -B build .
+  862  vim ~/.bashrc 
+  863  cmake -B build -DBLAS_LIBRARIES=/opt/OpenBLAS/lib/libopenblas.so .
+  864  vim ~/.bashrc 
+  865  cmake -B build -DBLAS_DIR=/opt/OpenBLAS -DBLAS_LIBRARIES=/opt/OpenBLAS/lib/libopenblas.so .
+  866  vim ~/.bashrc 
+  867  vim faiss/CMakeLists.txt 
+  868  cmake -B build -DBLAS_DIR=/opt/OpenBLAS -DBLAS_LIBRARIES=/opt/OpenBLAS/lib/libopenblas.so .
+  869  vim faiss/CMakeLists.txt 
+  870  cmake -B build -DBLAS_DIR=/opt/OpenBLAS -DBLAS_LIBRARIES=/opt/OpenBLAS/lib/libopenblas.so .
+  871  vim faiss/CMakeLists.txt 
+  872  vim faiss/python/CMakeLists.txt
+  873  cmake -B build -DBLAS_DIR=/opt/OpenBLAS -DBLAS_LIBRARIES=/opt/OpenBLAS/lib/libopenblas.so -DFAISS_ENABLE_PYTHON=OFF .
+  874  make -C build -j faiss
+  875  make -C build install
+  876  sudo make -C build install
+  877  cd ..
+  878  history >> installhistory.txt
